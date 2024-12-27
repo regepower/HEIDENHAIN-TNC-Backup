@@ -11,7 +11,7 @@ Benötigt werden `gawk.exe` und `touch.exe`.
 
 Download unter: https://sourceforge.net/projects/unxutils/
 
-Die bnötigten Dateien liegen im ZIP-Archiv unter `usr\local\wbin\`
+Die benötigten Dateien liegen im ZIP-Archiv unter `usr\local\wbin\`
 
 Ebenso wird `rush.exe` als Alternative für xargs benötigt
 
@@ -33,15 +33,11 @@ Die Parameter sind optional. Ohne Parameter muessen die Variablen
 **_TARGET** und **_IP** im Batch gesetzt sein!
 
 ## Historie:
- V0.1 2022 Initialversion by Rene Trolldenier
- 
- V0.2 2022 DIFF.LST bauen mit sort + comm + findstr durch awk ersetzt
- 
- V0.3 2022 TIMESTAMP setzen komplett erneuert mit awk und rush
- 
- V0.4 2022 Backupdauer hinzu und etwas Farbe bei der Ausgabe
- 
- V0.5 2022 Versuch mit chcp wegen ÄÖÜ Umlauten,  Fehler mit & Zeichen im Namen behoben
+### V0.1 2022 Initialversion by Rene Trolldenier
+### V0.2 2022 DIFF.LST bauen mit sort + comm + findstr durch awk ersetzt
+### V0.3 2022 TIMESTAMP setzen komplett erneuert mit awk und rush
+### V0.4 2022 Backupdauer hinzu und etwas Farbe bei der Ausgabe
+### V0.5 2022 Versuch mit chcp wegen ÄÖÜ Umlauten,  Fehler mit & Zeichen im Namen behoben
 
 ## BUGS:
 Beim Timestamp setzen mit TOUCH werden Dateinamen mit Umlauten ignoriert
